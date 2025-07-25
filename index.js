@@ -20,5 +20,5 @@ app.get("/productos", (req, res) => {
 });
 const PORT = 3001;
 app.listen(PORT, () => {
-  console.log(`Servidor backend iniciado en http://localhost:${PORT}`);
+  console.log(`Servidor backend iniciado en https://mi-backend-productos-mpvf.onrender.com/productos`);
 });
